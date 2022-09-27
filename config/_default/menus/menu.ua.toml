@@ -1,0 +1,28 @@
+[[main]]
+  name = "Додому"
+  url = "/"
+  weight = -110
+
+# [[main]]
+#   name = "Архіви"
+#   url = "post/rich-content/"
+#   weight = -109
+
+# Submenus are done this way: parent -> identifier
+[[main]]
+  name = "Посилання"
+  identifier = "Links"
+  weight = -108
+[[main]]
+  parent = "Links"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/"
+[[main]]
+  parent = "Links"
+  name = "Twitter"
+  url = "https://twitter.com/"
+
+[[main]]
+  name = "Про себе"
+  url = "about/"
+  weight = -107

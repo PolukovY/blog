@@ -1,0 +1,10 @@
+
+[en]
+  title = "Yevegn In Tech"
+  LanguageName = "English"
+  weight = 1
+
+[ua]
+  title = "Yevegn In Tech" # just for the sake of showing this is possible
+  LanguageName = "Ukraine"
+  weight = 2
