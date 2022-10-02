@@ -15,11 +15,11 @@ const goBackClass = 'button_back';
 const lineClass = '.line';
 
 // defined in i18n / translation files
-const quickLinks = 'Results';
-const searchResultsLabel = 'Search Results';
-const shortSearchQuery = 'Query is too short'
-const typeToSearch = 'Type to search';
-const noMatchesFound = 'No results found';
+const quickLinks = 'Результати';
+const searchResultsLabel = 'Результати пошуку';
+const shortSearchQuery = 'Запит занадто короткий'
+const typeToSearch = 'Введіть для пошуку';
+const noMatchesFound = 'Нічого не знайдено';
 
 ;
 // global variables
