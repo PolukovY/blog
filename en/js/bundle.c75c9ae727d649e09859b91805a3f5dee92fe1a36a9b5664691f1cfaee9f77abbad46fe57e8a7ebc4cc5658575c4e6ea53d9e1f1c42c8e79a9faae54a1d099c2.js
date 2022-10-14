@@ -8,7 +8,7 @@ const scaleImageClass = 'image-scale';
 const pageHasLoaded = 'DOMContentLoaded';
 const imageAltClass = 'img_alt'
 
-const baseURL = 'https://polukovy.github.io/blog/';
+const baseURL = 'https://blog.techworld-with-yevgen.com/';
 const searchFieldClass = '.search_field';
 const searchClass = '.search';
 const goBackClass = 'button_back';
