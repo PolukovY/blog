@@ -21,7 +21,7 @@ thumbnail = "images/optional-java.webp"
 
 ### 1. Чи можу я з Optional отримати NPE?
 
-І тут на жаль чудес немає звісно можете. Приведу типовий приклад коли це можливо:
+І тут на жаль чудес немає, звісно можете. Приведу типовий приклад коли це можливо:
 
 ```java
 Optional<User> getUserBad(int id) {
@@ -87,7 +87,7 @@ User getFromCacheOrDb(int id) {
 
 Optional<User> getFromCache(int id) {
     System.out.println("search in cache with id " + id);
-    return Optional.of(new User("levik", "test", new ArrayList<>()));
+    return Optional.of(new User("levik", new ArrayList<>()));
 }
 
 Optional<User> getFromDB(int id) {
